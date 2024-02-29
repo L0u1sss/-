@@ -1,0 +1,13 @@
+x=("09:00")
+h=x[:2]
+m=x[3:]
+h=int(h)
+m=int(m)
+am=360/60
+ah=360/12
+agm=am*m
+agh=ah*h
+C=agh-agm
+CC=360-C
+print(CC)
+print(C)
